@@ -1,0 +1,16 @@
+{
+  "name": "gym-app",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps-client",
+      "apps/server"
+    ]
+  },
+  "devDependencies": {
+    "turbo": "^2.1.2"
+  },
+  "scripts": {
+    "dev": "turbo run dev"
+  }
+}
